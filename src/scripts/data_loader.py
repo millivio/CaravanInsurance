@@ -91,7 +91,7 @@ COLUMN_NAMES = [
 ]
 assert len(COLUMN_NAMES) == 86
 
-def load_caravan(data_dir="./data"):
+def load_caravan(data_dir="../data"):
     """
     Loads Caravan dataset and returns train, test DataFrames, X, y.
     data_dir: folder containing caravan.train and caravan.test
